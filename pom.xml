@@ -21,7 +21,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.apache.hadoop.thirdparty</groupId>
+  <groupId>com.github.pjfanning.hadoop.thirdparty</groupId>
   <artifactId>hadoop-thirdparty</artifactId>
   <version>1.3.0-SNAPSHOT</version>
   <parent>
@@ -80,9 +80,9 @@
     <!-- define the Java language version used by the compiler -->
     <javac.version>1.8</javac.version>
 
-    <distMgmtSnapshotsId>apache.snapshots.https</distMgmtSnapshotsId>
-    <distMgmtSnapshotsName>Apache Development Snapshot Repository</distMgmtSnapshotsName>
-    <distMgmtSnapshotsUrl>https://repository.apache.org/content/repositories/snapshots</distMgmtSnapshotsUrl>
+    <distMgmtSnapshotsId>oss</distMgmtSnapshotsId>
+    <distMgmtSnapshotsName>Sonatype Snapshot Repository</distMgmtSnapshotsName>
+    <distMgmtSnapshotsUrl>https://oss.sonatype.org/content/repositories/snapshots/</distMgmtSnapshotsUrl>
     <distMgmtStagingId>apache.staging.https</distMgmtStagingId>
     <distMgmtStagingName>Apache Release Distribution Repository</distMgmtStagingName>
     <distMgmtStagingUrl>https://repository.apache.org/service/local/staging/deploy/maven2</distMgmtStagingUrl>

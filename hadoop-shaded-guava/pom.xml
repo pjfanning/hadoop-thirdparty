@@ -22,7 +22,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>hadoop-thirdparty</artifactId>
-        <groupId>org.apache.hadoop.thirdparty</groupId>
+        <groupId>com.github.pjfanning.hadoop.thirdparty</groupId>
         <version>1.3.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
